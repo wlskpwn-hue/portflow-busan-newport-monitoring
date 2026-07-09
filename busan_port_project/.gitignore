@@ -1,0 +1,39 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Notebook / local runtime artifacts
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+*.key
+
+# Build and log artifacts
+*.log
+
+# Project-generated data artifacts
+01_schedule_pipeline/bronze_staging/
+01_schedule_pipeline/tmp_excel/
+
+# Large local data files
+*.parquet
+*.xlsx
+*.xls
+*.xml
